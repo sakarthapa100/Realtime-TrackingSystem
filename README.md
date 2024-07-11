@@ -1,5 +1,3 @@
-
-ChatGPT
 Real-Time Tracking System
 This project is a real-time tracking system built using Node.js, Express, and Socket.IO. It allows users to share and view each other's live locations on a map.
 
@@ -50,3 +48,8 @@ public/: Contains static assets like CSS and JavaScript files.
 views/: Contains the EJS template file for rendering the HTML.
 app.js: Main server-side application file.
 package.json: Lists the project dependencies and scripts.
+Usage
+The application uses the browser's geolocation API to track the user's location.
+Locations are shared in real-time with all connected clients via Socket.IO.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
